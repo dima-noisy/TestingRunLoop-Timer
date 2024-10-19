@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		6426CB6B2CC3B22A008C1C76 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6426CB4C2CC3B228008C1C76 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6426CB532CC3B228008C1C76;
-			remoteInfo = "RunLoop,Timer";
-		};
-		6426CB752CC3B22A008C1C76 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6426CB4C2CC3B228008C1C76 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6426CB532CC3B228008C1C76;
-			remoteInfo = "RunLoop,Timer";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		6426CB542CC3B228008C1C76 /* RunLoop,Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RunLoop,Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6426CB6A2CC3B22A008C1C76 /* RunLoop,TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunLoop,TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6426CB742CC3B22A008C1C76 /* RunLoop,TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunLoop,TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -48,34 +29,10 @@
 			path = "RunLoop,Timer";
 			sourceTree = "<group>";
 		};
-		6426CB6D2CC3B22A008C1C76 /* RunLoop,TimerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "RunLoop,TimerTests";
-			sourceTree = "<group>";
-		};
-		6426CB772CC3B22A008C1C76 /* RunLoop,TimerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "RunLoop,TimerUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6426CB512CC3B228008C1C76 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6426CB672CC3B22A008C1C76 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6426CB712CC3B22A008C1C76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				6426CB562CC3B228008C1C76 /* RunLoop,Timer */,
-				6426CB6D2CC3B22A008C1C76 /* RunLoop,TimerTests */,
-				6426CB772CC3B22A008C1C76 /* RunLoop,TimerUITests */,
 				6426CB552CC3B228008C1C76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				6426CB542CC3B228008C1C76 /* RunLoop,Timer.app */,
-				6426CB6A2CC3B22A008C1C76 /* RunLoop,TimerTests.xctest */,
-				6426CB742CC3B22A008C1C76 /* RunLoop,TimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,52 +83,6 @@
 			productReference = 6426CB542CC3B228008C1C76 /* RunLoop,Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6426CB692CC3B22A008C1C76 /* RunLoop,TimerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6426CB822CC3B22A008C1C76 /* Build configuration list for PBXNativeTarget "RunLoop,TimerTests" */;
-			buildPhases = (
-				6426CB662CC3B22A008C1C76 /* Sources */,
-				6426CB672CC3B22A008C1C76 /* Frameworks */,
-				6426CB682CC3B22A008C1C76 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6426CB6C2CC3B22A008C1C76 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6426CB6D2CC3B22A008C1C76 /* RunLoop,TimerTests */,
-			);
-			name = "RunLoop,TimerTests";
-			packageProductDependencies = (
-			);
-			productName = "RunLoop,TimerTests";
-			productReference = 6426CB6A2CC3B22A008C1C76 /* RunLoop,TimerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6426CB732CC3B22A008C1C76 /* RunLoop,TimerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6426CB852CC3B22A008C1C76 /* Build configuration list for PBXNativeTarget "RunLoop,TimerUITests" */;
-			buildPhases = (
-				6426CB702CC3B22A008C1C76 /* Sources */,
-				6426CB712CC3B22A008C1C76 /* Frameworks */,
-				6426CB722CC3B22A008C1C76 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6426CB762CC3B22A008C1C76 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6426CB772CC3B22A008C1C76 /* RunLoop,TimerUITests */,
-			);
-			name = "RunLoop,TimerUITests";
-			packageProductDependencies = (
-			);
-			productName = "RunLoop,TimerUITests";
-			productReference = 6426CB742CC3B22A008C1C76 /* RunLoop,TimerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,14 +95,6 @@
 				TargetAttributes = {
 					6426CB532CC3B228008C1C76 = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					6426CB692CC3B22A008C1C76 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 6426CB532CC3B228008C1C76;
-					};
-					6426CB732CC3B22A008C1C76 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 6426CB532CC3B228008C1C76;
 					};
 				};
 			};
@@ -214,28 +113,12 @@
 			projectRoot = "";
 			targets = (
 				6426CB532CC3B228008C1C76 /* RunLoop,Timer */,
-				6426CB692CC3B22A008C1C76 /* RunLoop,TimerTests */,
-				6426CB732CC3B22A008C1C76 /* RunLoop,TimerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6426CB522CC3B228008C1C76 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6426CB682CC3B22A008C1C76 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6426CB722CC3B22A008C1C76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,34 +135,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6426CB662CC3B22A008C1C76 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6426CB702CC3B22A008C1C76 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6426CB6C2CC3B22A008C1C76 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6426CB532CC3B228008C1C76 /* RunLoop,Timer */;
-			targetProxy = 6426CB6B2CC3B22A008C1C76 /* PBXContainerItemProxy */;
-		};
-		6426CB762CC3B22A008C1C76 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6426CB532CC3B228008C1C76 /* RunLoop,Timer */;
-			targetProxy = 6426CB752CC3B22A008C1C76 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6426CB7E2CC3B22A008C1C76 /* Debug */ = {
@@ -294,9 +150,8 @@
 				INFOPLIST_FILE = "RunLoop,Timer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +177,8 @@
 				INFOPLIST_FILE = "RunLoop,Timer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,78 +311,6 @@
 			};
 			name = Release;
 		};
-		6426CB832CC3B22A008C1C76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35Y4373V43;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "noisy.RunLoop-TimerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunLoop,Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RunLoop,Timer";
-			};
-			name = Debug;
-		};
-		6426CB842CC3B22A008C1C76 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35Y4373V43;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "noisy.RunLoop-TimerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunLoop,Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RunLoop,Timer";
-			};
-			name = Release;
-		};
-		6426CB862CC3B22A008C1C76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35Y4373V43;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "noisy.RunLoop-TimerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "RunLoop,Timer";
-			};
-			name = Debug;
-		};
-		6426CB872CC3B22A008C1C76 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35Y4373V43;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "noisy.RunLoop-TimerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "RunLoop,Timer";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -546,24 +328,6 @@
 			buildConfigurations = (
 				6426CB7E2CC3B22A008C1C76 /* Debug */,
 				6426CB7F2CC3B22A008C1C76 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6426CB822CC3B22A008C1C76 /* Build configuration list for PBXNativeTarget "RunLoop,TimerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6426CB832CC3B22A008C1C76 /* Debug */,
-				6426CB842CC3B22A008C1C76 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6426CB852CC3B22A008C1C76 /* Build configuration list for PBXNativeTarget "RunLoop,TimerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6426CB862CC3B22A008C1C76 /* Debug */,
-				6426CB872CC3B22A008C1C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
